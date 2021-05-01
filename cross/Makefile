@@ -1,0 +1,4 @@
+COMPONENT=crossApp
+CFLAGS += -DTOSH_DATA_LENGTH=100
+include $(MAKERULES)
+

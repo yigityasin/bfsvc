@@ -1,0 +1,4 @@
+make iris sim
+g++ -g -c -o Driver.o Driver.c -I /opt/tinyos-2.1.2/tos/lib/tossim
+g++ -o Driver Driver.o simbuild/iris/tossim.o simbuild/iris/sim.o simbuild/iris/c-support.o
+
